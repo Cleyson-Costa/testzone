@@ -16,9 +16,9 @@ class Connection:
         self.__order = []
         self.__limit = 0
         self.__host = '127.0.0.1'
-        self.__user = 'root'
+        self.__user = 'cleyson'
         self.__db = 'testzone'
-        self.__pass = 'root'
+        self.__pass = 'Cl@976213'
         self.__port = 3306
 
     def reset(self):
