@@ -17,6 +17,7 @@ class Cidade:
         limit = 10 if self.__uf == '' else 0
         return Connection() \
             .connect() \
+            .add_field('id') \
             .add_field('uf') \
             .add_field('nome') \
             .add_field('ibge') \
