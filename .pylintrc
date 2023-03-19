@@ -1,0 +1,8 @@
+[FORMAT]
+# Good variables names witch should always be accepted, separated by a comma
+# k,v para keys e values de dicionários
+# e para exceptions
+# f para files
+# r para responses (requests.Response)
+# ss para Session, AppSession
+good-names = k,v,e,f,r,ss
